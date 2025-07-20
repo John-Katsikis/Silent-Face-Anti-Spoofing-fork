@@ -47,6 +47,7 @@ class Detection:
         left, top, right, bottom = out[max_conf_index, 3]*width, out[max_conf_index, 4]*height, \
                                    out[max_conf_index, 5]*width, out[max_conf_index, 6]*height
         bbox = [int(left), int(top), int(right-left+1), int(bottom-top+1)]
+        ##print(left, top, right, bottom)
         return bbox
 
 
