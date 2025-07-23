@@ -101,7 +101,9 @@ def test(model_dir, device_id, path):
     
     if "Live" in path:
         correctness = (realface/size)*100
+        falsePos = size - realface
         print("Live Correctness rate is : {:.2f}%".format(correctness))
+        print(f"Precision is: {realface/(realface+falsePos)}")
     
     if "Spoof" in path:
         correctness = (fakeface/size)*100
@@ -134,7 +136,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--eval_path",
         type=str,
-        default="EVALSET/Spoof",
+        default="EVALSET/Live",
         help="filepath for evaluation dataset")
     args = parser.parse_args()
     test(args.model_dir, args.device_id, args.eval_path)
