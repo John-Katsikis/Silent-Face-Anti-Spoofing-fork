@@ -12,7 +12,7 @@ import argparse
 import warnings
 import time
 
-from sklearn.metrics import confusion_matrix, classification_report
+from sklearn.metrics import confusion_matrix, classification_report, precision_score, recall_score, f1_score
 from src.anti_spoof_predict import AntiSpoofPredict
 from src.generate_patches import CropImage
 from src.utility import parse_model_name
@@ -37,21 +37,20 @@ def test(model_dir, device_id):
     image_cropper = CropImage()
     directories = ["EVALSET/Live", "EVALSET/Spoof"]
 
-
+    truthList = []
+    predList = []
 
     endresult = open("result.txt", "a")
 
     for path in directories:
         type = path.split("/")[-1]
-        print(type)
+        print(f"Running {type}")
         
         realface = 0
         fakeface = 0
         size = 0
         count = 0
         
-        truthList = []
-        predList = []
 
         for image_name in os.listdir(path):
             truth_label = labels[type]
@@ -93,10 +92,17 @@ def test(model_dir, device_id):
 
                 value = prediction[0][label] / 2  # optional: normalize or rescale score
                
+                overallMatrix = confusion_matrix(truthList, predList, labels=[0, 1, 2])
+                precision = precision_score(truthList, predList, average='micro')
+                recall = recall_score(truthList, predList, average='micro')
+                f1 = f1_score(truthList, predList, average='micro')
 
-        print(confusion_matrix(truthList, predList, labels=[0, 1, 2]))
+    print(overallMatrix)
+    print(f"Precision: {precision}")
+    print(f"Recall: {recall}")
+    print(f"F1 Score: {f1}")
   
-          
+
 
 
     endresult.close()
