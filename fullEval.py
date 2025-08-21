@@ -105,9 +105,9 @@ def test(model_dir, device_id):
                     cv2.FONT_HERSHEY_COMPLEX, 0.5 * image.shape[0] / 1024, color)
 
                 # Save the result image
-                format_ = os.path.splitext(image_name)[-1]
-                result_image_name = image_name.replace(format_, "_result" + format_)
-                cv2.imwrite(SAMPLE_IMAGE_PATH + result_image_name, image)
+               ## format_ = os.path.splitext(image_name)[-1]
+               ## result_image_name = image_name.replace(format_, "_result" + format_)
+               ## cv2.imwrite(SAMPLE_IMAGE_PATH + result_image_name, image)
 
         
         if "Live" in path:

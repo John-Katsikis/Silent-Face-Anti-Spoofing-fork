@@ -92,7 +92,7 @@ def test_multiface_webcam(model_dir, device_id):
             
             # Draw rectangle and circle around face
             cv2.rectangle(frame, (x1, y1), (x2, y2), color, 2)
-            cv2.circle(frame, (int(w/2+x1), int(h/2+y1)), int(w/2), color, 2)
+            ##cv2.circle(frame, (int(w/2+x1), int(h/2+y1)), int(w/2), color, 2)
             
             label_text = f"{text} #{i+1}"
             cv2.putText(frame, label_text, (x1, y1 - 10), 

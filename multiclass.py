@@ -32,13 +32,17 @@ directory_labels = {
     "Spoof": 2
 }
 
+
+
 def test(model_dir, device_id):
     model_test = AntiSpoofPredict(device_id)
     image_cropper = CropImage()
     directories = ["EVALSET/Live", "EVALSET/Spoof"]
 
-    truthList = []
-    predList = []
+    photonum=0
+
+    truthFull = []
+    predFull = []
 
     endresult = open("result.txt", "a")
 
@@ -51,13 +55,17 @@ def test(model_dir, device_id):
         size = 0
         count = 0
         
+        truthList = []
+        predList = []
 
         for image_name in os.listdir(path):
             truth_label = labels[type]
 
             if image_name.endswith('.png'):
                 
+                photonum+=1
                 truthList.append(truth_label)
+                truthFull.append(truth_label)
                 
                 count += 1
                 full_path = os.path.join(path, image_name)
@@ -88,19 +96,38 @@ def test(model_dir, device_id):
                     test_speed += time.time() - start
 
                 label = np.argmax(prediction)
-                predList.append(label)
+                value = prediction[0][label] / 2    
+                
+                
+                if(label==0):
+                    print(f"Image {image_name} is Unknown")
+                    print(value)
 
-                value = prediction[0][label] / 2  # optional: normalize or rescale score
+                predList.append(label)
+                predFull.append(label)
+
+                  # optional: normalize or rescale score
                
                 overallMatrix = confusion_matrix(truthList, predList, labels=[0, 1, 2])
                 precision = precision_score(truthList, predList, average='micro')
                 recall = recall_score(truthList, predList, average='micro')
                 f1 = f1_score(truthList, predList, average='micro')
 
-    print(overallMatrix)
-    print(f"Precision: {precision}")
-    print(f"Recall: {recall}")
-    print(f"F1 Score: {f1}")
+        print(overallMatrix)
+        print(f"Precision: {precision*100}%")
+        print(f"Recall: {recall*100}%")
+        print(f"F1 Score: {f1*100}%")
+
+    overallFullMatrix = confusion_matrix(truthFull, predFull, labels=[0, 1, 2])
+    overallFullPrecision = precision_score(truthFull, predFull, average='micro')
+    overallFullRecall = recall_score(truthFull, predFull, average='micro')
+    overallFullF1 = f1_score(truthFull, predFull, average='micro')
+    print("Overall Full Matrix:")
+    print(overallFullMatrix)
+    print(f"Overall Full Precision: {overallFullPrecision*100}%")
+    print(f"Overall Full Recall: {overallFullRecall*100}%")
+    print(f"Overall Full F1 Score: {overallFullF1*100}%")
+    print(f"Total images processed: {photonum}")
   
 
 
