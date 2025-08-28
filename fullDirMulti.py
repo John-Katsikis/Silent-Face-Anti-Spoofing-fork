@@ -120,8 +120,11 @@ def test(model_dir, device_id):
                     label = np.argmax(prediction)
                     value = prediction[0][label] / 2  # optional: normalize or rescale score
 
+                    prediction = np.array(prediction).flatten()
+                    
                     if label==0:
                         label = quickcheck(prediction, full_path, image_name, value)
+                        
                         predList.append(label)
                         predFull.append(label)
                     else:
@@ -157,17 +160,23 @@ def test(model_dir, device_id):
 
 
 def quickcheck(prediction, full_path, image_name, value):
-    label = np.argsort(prediction.flatten())[-2]
-    print(f"Label:{label}")
-    print("Storing to unknowns.txt")
-    file.write(f"Image path: {full_path} ")
-    file.write(f"Image name: {image_name} ") 
-    file.write(f"Value: {value}")
+    threshold = 0
+    ##label = np.argsort(prediction.flatten())[-2]
+    pred = prediction.flatten()
+    live = pred[1]
+    spoof = pred[2]
+    diff = (live - spoof) / spoof * 100
+    if(diff > threshold):
+        label = 1
+    elif(diff < -threshold):
+        label = 2
+    else:
+        label = 0
     data = str(prediction)
-    print(data)
-    file.write(data)
-    file.write("\n") 
-
+    file.write(f"Image path: {full_path}\n")
+    file.write(f"Image name: {image_name}\n")
+    file.write(f"Value: {value}\n")
+    file.write(f"Prediction: {data}\n\n")
     return label
 
 
