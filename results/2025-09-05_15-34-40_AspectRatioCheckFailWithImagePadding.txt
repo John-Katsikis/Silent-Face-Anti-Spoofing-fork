@@ -1,0 +1,1214 @@
+2025-09-05 15:34:40
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5298/Live
+Image name: 523620.png
+Value: 0.8991908729076385
+Prediction: [1.79838175 0.06085988 0.14075833]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5298/Live
+Image name: 547770.png
+Value: 0.6284045875072479
+Prediction: [1.25680918 0.73635834 0.00683248]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5298/Live
+Image name: 503694.png
+Value: 0.505028466694057
+Prediction: [1.01005693 0.00936521 0.98057777]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5433/Live
+Image name: 551860.png
+Value: 0.7116711735725403
+Prediction: [1.42334235 0.57138773 0.00526982]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5458/Spoof
+Image name: 560407.png
+Value: 0.9844717085361481
+Prediction: [1.96894342 0.00335212 0.02770441]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5458/Spoof
+Image name: 541347.png
+Value: 0.9766601920127869
+Prediction: [1.95332038 0.04207312 0.00460648]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5458/Spoof
+Image name: 494866.png
+Value: 0.9606645703315735
+Prediction: [1.92132914 0.06910817 0.00956262]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5035/Live
+Image name: 495968.png
+Value: 0.6329115182161331
+Prediction: [1.26582304 0.72602267 0.00815433]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5035/Spoof
+Image name: 539732.png
+Value: 0.6144218891859055
+Prediction: [1.22884378 0.00231535 0.76884087]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5035/Spoof
+Image name: 527269.png
+Value: 0.5677361637353897
+Prediction: [1.13547233 0.00366424 0.86086342]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5051/Live
+Image name: 558658.png
+Value: 0.6296279728412628
+Prediction: [1.25925595e+00 1.16231421e-03 7.39581898e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5051/Spoof
+Image name: 516304.png
+Value: 0.5550132542848587
+Prediction: [1.11002651 0.00125655 0.8887171 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5051/Spoof
+Image name: 540446.png
+Value: 0.7104120850563049
+Prediction: [1.42082417e+00 2.60890585e-04 5.78914911e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/4973/Live
+Image name: 495652.png
+Value: 0.970470130443573
+Prediction: [1.94094026 0.00200555 0.05705428]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5252/Spoof
+Image name: 498275.png
+Value: 0.5950024724006653
+Prediction: [1.19000494 0.00172149 0.80827355]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5457/Spoof
+Image name: 530799.png
+Value: 0.9389399886131287
+Prediction: [1.87787998 0.00426732 0.11785278]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5033/Spoof
+Image name: 528068.png
+Value: 0.6634236872196198
+Prediction: [1.32684737e+00 2.64422051e-04 6.72888242e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5206/Spoof
+Image name: 531966.png
+Value: 0.7874723672866821
+Prediction: [1.57494473e+00 2.16501961e-04 4.24838720e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5148/Spoof
+Image name: 508504.png
+Value: 0.9969651699066162
+Prediction: [1.99393034e+00 2.52476175e-05 6.04446023e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5148/Spoof
+Image name: 522061.png
+Value: 0.9949633479118347
+Prediction: [1.98992670e+00 1.73054286e-04 9.90035897e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5170/Spoof
+Image name: 540963.png
+Value: 0.9262964725494385
+Prediction: [1.85259295e+00 3.26179626e-04 1.47080842e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5170/Spoof
+Image name: 522166.png
+Value: 0.8442972898483276
+Prediction: [1.68859458 0.00323815 0.30816723]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5170/Spoof
+Image name: 512640.png
+Value: 0.5035373540595174
+Prediction: [1.00707471 0.00237499 0.99055036]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5170/Spoof
+Image name: 554417.png
+Value: 0.8937903046607971
+Prediction: [1.78758061e+00 6.28717344e-05 2.12356523e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5185/Live
+Image name: 518461.png
+Value: 0.5854465514421463
+Prediction: [1.1708931  0.10176341 0.7273434 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5185/Spoof
+Image name: 504144.png
+Value: 0.5312487781047821
+Prediction: [1.06249756 0.01590473 0.92159772]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5328/Spoof
+Image name: 553217.png
+Value: 0.8793725371360779
+Prediction: [1.75874507 0.13455488 0.10670001]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5328/Spoof
+Image name: 517905.png
+Value: 0.6302410215139389
+Prediction: [1.26048204 0.3354183  0.4040996 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5328/Spoof
+Image name: 507917.png
+Value: 0.5425495393574238
+Prediction: [1.08509908 0.01730514 0.89759581]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5328/Spoof
+Image name: 528512.png
+Value: 0.5950009301304817
+Prediction: [1.19000186 0.80754102 0.00245707]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5328/Spoof
+Image name: 516681.png
+Value: 0.5942996293306351
+Prediction: [1.18859926 0.78681196 0.02458888]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5113/Spoof
+Image name: 505967.png
+Value: 0.9876865744590759
+Prediction: [1.97537315e+00 1.54215707e-03 2.30845967e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5113/Spoof
+Image name: 499620.png
+Value: 0.9990429580211639
+Prediction: [1.99808592e+00 2.95886343e-05 1.88458068e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5113/Spoof
+Image name: 556009.png
+Value: 0.9999958872795105
+Prediction: [1.99999177e+00 6.50983247e-06 1.65583938e-06]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5113/Spoof
+Image name: 516829.png
+Value: 0.9988563358783722
+Prediction: [1.99771267e+00 1.67528337e-05 2.27058124e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5113/Spoof
+Image name: 505058.png
+Value: 0.9994997978210449
+Prediction: [1.99899960e+00 3.70550806e-05 9.63326194e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5332/Spoof
+Image name: 528683.png
+Value: 0.8690068125724792
+Prediction: [1.73801363 0.04385178 0.21813459]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5332/Spoof
+Image name: 541137.png
+Value: 0.537939727306366
+Prediction: [1.07587945 0.08879436 0.8353262 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5100/Spoof
+Image name: 519525.png
+Value: 0.9899495542049408
+Prediction: [1.97989911e+00 1.34088652e-04 1.99668715e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5100/Spoof
+Image name: 552295.png
+Value: 0.9943810999393463
+Prediction: [1.98876220e+00 7.89996906e-04 1.04478248e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/10157/Live
+Image name: 494677.png
+Value: 0.5484647378325462
+Prediction: [1.09692948 0.2937449  0.60932548]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/10157/Live
+Image name: 502744.png
+Value: 0.4730352908372879
+Prediction: [0.94607058 0.85379645 0.2001329 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5501/Spoof
+Image name: 529531.png
+Value: 0.8323330283164978
+Prediction: [1.66466606 0.32807977 0.00725417]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5501/Spoof
+Image name: 498453.png
+Value: 0.9153240919113159
+Prediction: [1.83064818 0.16293929 0.00641245]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5162/Spoof
+Image name: 531783.png
+Value: 0.9330079257488251
+Prediction: [1.86601585e+00 2.06391334e-04 1.33777801e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5162/Spoof
+Image name: 553467.png
+Value: 0.9181425869464874
+Prediction: [1.83628517e+00 3.48138041e-04 1.63366698e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5162/Spoof
+Image name: 510992.png
+Value: 0.9183163344860077
+Prediction: [1.83663267e+00 9.50825072e-05 1.63272256e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5162/Spoof
+Image name: 509465.png
+Value: 0.6328208595514297
+Prediction: [1.26564172e+00 1.12347117e-04 7.34245967e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5162/Spoof
+Image name: 548571.png
+Value: 0.9265693128108978
+Prediction: [1.85313863e+00 1.76615426e-05 1.46843722e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5162/Spoof
+Image name: 541385.png
+Value: 0.9956422746181488
+Prediction: [1.99128455e+00 5.81620435e-06 8.70965130e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5162/Spoof
+Image name: 531074.png
+Value: 0.6851914823055267
+Prediction: [1.37038296e+00 1.29480463e-04 6.29487537e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5162/Spoof
+Image name: 500900.png
+Value: 0.5916458964347839
+Prediction: [1.18329179e+00 3.37078927e-05 8.16674400e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5539/Spoof
+Image name: 515180.png
+Value: 0.6374572962522507
+Prediction: [1.27491459 0.23979776 0.48528763]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5539/Spoof
+Image name: 505613.png
+Value: 0.5169112831354141
+Prediction: [1.03382257 0.5247578  0.44141978]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/10102/Live
+Image name: 534498.png
+Value: 0.5438453406095505
+Prediction: [1.08769068 0.89793559 0.0143738 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/10102/Live
+Image name: 516169.png
+Value: 0.5083270370960236
+Prediction: [1.01665407 0.94027853 0.0430675 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/10102/Live
+Image name: 517514.png
+Value: 0.8837754130363464
+Prediction: [1.76755083 0.20329058 0.02915857]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5596/Spoof
+Image name: 496298.png
+Value: 0.49869221076369286
+Prediction: [0.99738442 0.9751846  0.02743097]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5596/Spoof
+Image name: 501532.png
+Value: 0.48015742003917694
+Prediction: [0.96031484 0.923064   0.11662123]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5596/Spoof
+Image name: 523934.png
+Value: 0.5401063561439514
+Prediction: [1.08021271 0.87190406 0.04788316]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5536/Spoof
+Image name: 507223.png
+Value: 0.6233064383268356
+Prediction: [1.24661288 0.02509929 0.72828795]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5536/Spoof
+Image name: 527821.png
+Value: 0.6185838282108307
+Prediction: [1.23716766 0.7477425  0.01508975]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/10169/Live
+Image name: 510906.png
+Value: 0.679047629237175
+Prediction: [1.35809526 0.62788606 0.01401877]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5481/Live
+Image name: 494435.png
+Value: 0.866388589143753
+Prediction: [1.73277718 0.24636742 0.02085547]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5284/Spoof
+Image name: 503773.png
+Value: 0.649058997631073
+Prediction: [1.298118   0.0719381  0.62994385]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5614/Spoof
+Image name: 537694.png
+Value: 0.37751124054193497
+Prediction: [0.75502248 0.66229117 0.58268639]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5614/Spoof
+Image name: 508505.png
+Value: 0.5044484585523605
+Prediction: [1.00889692 0.24017239 0.75093067]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5614/Spoof
+Image name: 525866.png
+Value: 0.6657431423664093
+Prediction: [1.33148628 0.0022358  0.66627789]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5614/Spoof
+Image name: 552350.png
+Value: 0.37936652451753616
+Prediction: [0.75873305 0.6727479  0.56851903]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5614/Spoof
+Image name: 497356.png
+Value: 0.3969127759337425
+Prediction: [0.79382555 0.75793675 0.44823766]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5614/Spoof
+Image name: 528662.png
+Value: 0.8822859525680542
+Prediction: [1.76457191 0.00467867 0.23074945]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5614/Spoof
+Image name: 535226.png
+Value: 0.45288723707199097
+Prediction: [0.90577447 0.64729691 0.44692867]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5614/Spoof
+Image name: 538448.png
+Value: 0.38282568752765656
+Prediction: [0.76565138 0.5221917  0.71215692]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5614/Spoof
+Image name: 542048.png
+Value: 0.7047484517097473
+Prediction: [1.4094969  0.25024987 0.34025313]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5614/Spoof
+Image name: 558038.png
+Value: 0.3785136640071869
+Prediction: [0.75702733 0.51402256 0.72895008]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5614/Spoof
+Image name: 528121.png
+Value: 0.8635737299919128
+Prediction: [1.72714746 0.01564891 0.2572037 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5614/Spoof
+Image name: 529764.png
+Value: 0.4322722554206848
+Prediction: [0.86454451 0.8392522  0.29620324]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5614/Spoof
+Image name: 536753.png
+Value: 0.8057383298873901
+Prediction: [1.61147666 0.11249525 0.27602811]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5614/Spoof
+Image name: 552607.png
+Value: 0.4348141923546791
+Prediction: [0.86962838 0.78389795 0.3464736 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5624/Live
+Image name: 541286.png
+Value: 0.9106913506984711
+Prediction: [1.8213827  0.13215616 0.04646113]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5075/Live
+Image name: 536098.png
+Value: 0.6947742104530334
+Prediction: [1.38954842e+00 6.09688658e-01 7.63017408e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5075/Spoof
+Image name: 507350.png
+Value: 0.6699094325304031
+Prediction: [1.33981887 0.00196972 0.6582114 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5075/Spoof
+Image name: 501361.png
+Value: 0.6664393842220306
+Prediction: [1.33287877e+00 5.52820115e-04 6.66568335e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/4966/Live
+Image name: 540457.png
+Value: 0.5691302418708801
+Prediction: [1.13826048 0.83400434 0.0277352 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/4978/Live
+Image name: 546737.png
+Value: 0.45103405602276325
+Prediction: [0.90206811 0.26165104 0.83628104]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/4978/Live
+Image name: 533734.png
+Value: 0.42725394666194916
+Prediction: [0.85450789 0.56750844 0.57798354]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/10059/Live
+Image name: 536465.png
+Value: 0.5858952403068542
+Prediction: [1.17179048e+00 3.26965405e-04 8.27882521e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5633/Spoof
+Image name: 510996.png
+Value: 0.5384570732712746
+Prediction: [1.07691415 0.90105448 0.02203137]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5605/Live
+Image name: 521019.png
+Value: 0.6708799600601196
+Prediction: [1.34175992 0.37770171 0.28053835]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5605/Live
+Image name: 540733.png
+Value: 0.34559168689884245
+Prediction: [0.69118337 0.6618474  0.64696924]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5267/Live
+Image name: 549105.png
+Value: 0.5006816401146352
+Prediction: [1.00136328 0.15994452 0.83869219]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5052/Live
+Image name: 525889.png
+Value: 0.9701136648654938
+Prediction: [1.94022733e+00 1.78679795e-04 5.95940417e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5052/Live
+Image name: 502308.png
+Value: 0.5524227172136307
+Prediction: [1.10484543e+00 8.94379616e-01 7.75004737e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5269/Spoof
+Image name: 561559.png
+Value: 0.9658976793289185
+Prediction: [1.93179536e+00 4.81744679e-04 6.77228402e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5269/Spoof
+Image name: 535022.png
+Value: 0.9511305689811707
+Prediction: [1.90226114 0.00242281 0.09531612]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5269/Spoof
+Image name: 502839.png
+Value: 0.6272526234388351
+Prediction: [1.25450525 0.00126333 0.74423134]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5129/Spoof
+Image name: 507386.png
+Value: 0.5895340666174889
+Prediction: [1.17906813e+00 1.50094924e-04 8.20781641e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5129/Spoof
+Image name: 561012.png
+Value: 0.947613537311554
+Prediction: [1.89522707e+00 5.00843882e-04 1.04272193e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5129/Spoof
+Image name: 547661.png
+Value: 0.9966825842857361
+Prediction: [1.99336517e+00 3.51298018e-04 6.28356729e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5129/Spoof
+Image name: 535943.png
+Value: 0.8318171799182892
+Prediction: [1.66363436e+00 3.76443255e-04 3.35989255e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5129/Spoof
+Image name: 549735.png
+Value: 0.6349307894706726
+Prediction: [1.26986158 0.00162816 0.72851031]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5129/Spoof
+Image name: 513893.png
+Value: 0.9942108988761902
+Prediction: [1.98842180e+00 1.13172996e-03 1.04464935e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5129/Spoof
+Image name: 520875.png
+Value: 0.7709647119045258
+Prediction: [1.54192942e+00 5.90325180e-05 4.58011545e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5129/Spoof
+Image name: 519203.png
+Value: 0.995233565568924
+Prediction: [1.99046713 0.00713922 0.00239361]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5174/Spoof
+Image name: 548719.png
+Value: 0.9996005892753601
+Prediction: [1.99920118e+00 1.02719722e-05 7.88639445e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5174/Spoof
+Image name: 518603.png
+Value: 0.9964021146297455
+Prediction: [1.99280423e+00 3.92292986e-05 7.15657859e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5174/Spoof
+Image name: 518806.png
+Value: 0.5804735124111176
+Prediction: [1.16094702e+00 2.65637183e-04 8.38787347e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5174/Spoof
+Image name: 542661.png
+Value: 0.9713622331619263
+Prediction: [1.94272447 0.01457477 0.04270076]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5174/Spoof
+Image name: 510632.png
+Value: 0.9896670579910278
+Prediction: [1.97933412e+00 3.37753745e-05 2.06320621e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5174/Spoof
+Image name: 524787.png
+Value: 0.9306506514549255
+Prediction: [1.86130130e+00 9.85164254e-04 1.37713522e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5174/Spoof
+Image name: 532132.png
+Value: 0.7845585346221924
+Prediction: [1.56911707 0.00515646 0.42572653]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5174/Spoof
+Image name: 544845.png
+Value: 0.9127652943134308
+Prediction: [1.82553059e+00 1.35081593e-03 1.73118573e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5545/Live
+Image name: 524675.png
+Value: 0.5866144597530365
+Prediction: [1.17322892 0.82400098 0.00276997]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5545/Spoof
+Image name: 518926.png
+Value: 0.7948249578475952
+Prediction: [1.58964992 0.13417996 0.27617018]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5545/Spoof
+Image name: 550636.png
+Value: 0.9384509325027466
+Prediction: [1.87690187 0.02436918 0.09872902]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5545/Spoof
+Image name: 511643.png
+Value: 0.8834343254566193
+Prediction: [1.76686865 0.10854318 0.1245882 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5545/Spoof
+Image name: 532878.png
+Value: 0.8252829015254974
+Prediction: [1.6505658  0.28430874 0.06512543]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5545/Spoof
+Image name: 530944.png
+Value: 0.7457623481750488
+Prediction: [1.4915247  0.32586306 0.18261229]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5545/Spoof
+Image name: 523106.png
+Value: 0.4515514671802521
+Prediction: [0.90310293 0.3742739  0.72262317]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5545/Spoof
+Image name: 526256.png
+Value: 0.7974405884742737
+Prediction: [1.59488118 0.0523017  0.35281713]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5545/Spoof
+Image name: 508780.png
+Value: 0.6646646857261658
+Prediction: [1.32932937 0.17256296 0.4981076 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5545/Spoof
+Image name: 498554.png
+Value: 0.6340560019016266
+Prediction: [1.268112   0.6848325  0.04705544]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Live
+Image name: 529871.png
+Value: 0.7660063207149506
+Prediction: [1.53201264 0.14843425 0.31955306]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Live
+Image name: 530991.png
+Value: 0.4134479649364948
+Prediction: [0.82689593 0.55046183 0.62264215]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Live
+Image name: 498392.png
+Value: 0.4556642174720764
+Prediction: [0.91132843 0.79710102 0.29157059]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Live
+Image name: 555154.png
+Value: 0.8467184603214264
+Prediction: [1.69343692 0.08065735 0.22590575]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 542752.png
+Value: 0.9995456635951996
+Prediction: [1.99909133e+00 5.72347790e-06 9.03012144e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 549771.png
+Value: 0.9329939186573029
+Prediction: [1.86598784e+00 9.45758773e-04 1.33066375e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 531368.png
+Value: 0.9996235370635986
+Prediction: [1.99924707e+00 1.15028557e-05 7.41503347e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 515962.png
+Value: 0.5641545429825783
+Prediction: [1.12830909 0.00112931 0.87056151]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 497681.png
+Value: 0.9707761704921722
+Prediction: [1.94155234e+00 5.64002086e-04 5.78837488e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 494413.png
+Value: 0.9997704923152924
+Prediction: [1.99954098e+00 1.65949022e-07 4.58817715e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 514000.png
+Value: 0.9999959468841553
+Prediction: [1.99999189e+00 6.10113125e-06 2.02286894e-06]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 524075.png
+Value: 0.9727675318717957
+Prediction: [1.94553506e+00 5.01223651e-04 5.39637948e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 554624.png
+Value: 0.9984194040298462
+Prediction: [1.99683881e+00 1.21956761e-07 3.16113539e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 558173.png
+Value: 0.999997079372406
+Prediction: [1.99999416e+00 3.44374129e-07 5.50781078e-06]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 504578.png
+Value: 0.9999834895133972
+Prediction: [1.99996698e+00 3.16961158e-07 3.28374754e-05]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 506569.png
+Value: 0.9982943832874298
+Prediction: [1.99658877e+00 2.19212812e-04 3.19198397e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 525559.png
+Value: 0.8344201147556305
+Prediction: [1.66884023e+00 1.25381078e-03 3.29905941e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 541949.png
+Value: 0.9998477101325989
+Prediction: [1.99969542e+00 1.66742602e-07 3.04273155e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 512042.png
+Value: 0.9168586730957031
+Prediction: [1.83371735e+00 1.01646140e-03 1.65266170e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 512392.png
+Value: 0.9985799193382263
+Prediction: [1.99715984e+00 5.37721514e-05 2.78647452e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5128/Spoof
+Image name: 560466.png
+Value: 0.9999377131462097
+Prediction: [1.99987543e+00 1.04908638e-06 1.23653695e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/10153/Live
+Image name: 531991.png
+Value: 0.5222342312335968
+Prediction: [1.04446846 0.93998177 0.01554973]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5150/Live
+Image name: 537780.png
+Value: 0.5079986304044724
+Prediction: [1.01599726 0.58369845 0.40030429]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5150/Spoof
+Image name: 529545.png
+Value: 0.9048879742622375
+Prediction: [1.80977595 0.0020285  0.1881955 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5150/Spoof
+Image name: 522536.png
+Value: 0.6767856180667877
+Prediction: [1.35357124e+00 8.04447533e-04 6.45624302e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5150/Spoof
+Image name: 552826.png
+Value: 0.5855189561843872
+Prediction: [1.17103791 0.02522904 0.80373296]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5168/Spoof
+Image name: 520128.png
+Value: 0.7709313631057739
+Prediction: [1.54186273 0.00359479 0.45454251]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5168/Spoof
+Image name: 529118.png
+Value: 0.8604259192943573
+Prediction: [1.72085184 0.00203824 0.27710993]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5168/Spoof
+Image name: 540741.png
+Value: 0.5485663861036301
+Prediction: [1.09713277 0.00317261 0.89969466]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5168/Spoof
+Image name: 531949.png
+Value: 0.6460119932889938
+Prediction: [1.29202399e+00 6.51703465e-04 7.07324323e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5168/Spoof
+Image name: 532203.png
+Value: 0.9772661030292511
+Prediction: [1.95453221 0.01603024 0.02943764]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5168/Spoof
+Image name: 513997.png
+Value: 0.8974397778511047
+Prediction: [1.79487956e+00 4.48481645e-04 2.04671985e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5168/Spoof
+Image name: 501413.png
+Value: 0.9749292731285095
+Prediction: [1.94985855e+00 5.81632543e-04 4.95598994e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5168/Spoof
+Image name: 516109.png
+Value: 0.8881978690624237
+Prediction: [1.77639574e+00 5.15734122e-04 2.23088386e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5168/Spoof
+Image name: 551240.png
+Value: 0.6656876057386398
+Prediction: [1.33137521 0.00363049 0.66499437]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5168/Spoof
+Image name: 499202.png
+Value: 0.9752591550350189
+Prediction: [1.95051831 0.00227625 0.04720555]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5168/Spoof
+Image name: 533358.png
+Value: 0.9675972163677216
+Prediction: [1.93519443e+00 7.08776788e-04 6.40967023e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5168/Spoof
+Image name: 536418.png
+Value: 0.5913103595376015
+Prediction: [1.18262072e+00 1.00296376e-03 8.16376328e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5354/Spoof
+Image name: 532598.png
+Value: 0.37712301313877106
+Prediction: [0.75424603 0.53945179 0.70630214]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5354/Spoof
+Image name: 552902.png
+Value: 0.7062957435846329
+Prediction: [1.41259149 0.05590552 0.53150308]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5502/Spoof
+Image name: 494754.png
+Value: 0.7917545139789581
+Prediction: [1.58350903 0.02038249 0.39610852]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5502/Spoof
+Image name: 541910.png
+Value: 0.9994305074214935
+Prediction: [1.99886101e+00 6.56380296e-04 4.82595147e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5159/Spoof
+Image name: 519334.png
+Value: 0.8057012856006622
+Prediction: [1.61140257e+00 3.03757519e-04 3.88293735e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5159/Spoof
+Image name: 554313.png
+Value: 0.98961341381073
+Prediction: [1.97922683e+00 3.49424806e-05 2.07382063e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5159/Spoof
+Image name: 530091.png
+Value: 0.9933635890483856
+Prediction: [1.98672718e+00 2.40624802e-04 1.30321835e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5159/Spoof
+Image name: 512782.png
+Value: 0.9987739026546478
+Prediction: [1.99754781e+00 7.59010732e-07 2.45132676e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5159/Spoof
+Image name: 515360.png
+Value: 0.9868325293064117
+Prediction: [1.97366506e+00 3.03573705e-04 2.60313740e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 547367.png
+Value: 0.9944934844970703
+Prediction: [1.98898697e+00 1.36864907e-03 9.64451255e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 548718.png
+Value: 0.9999185800552368
+Prediction: [1.99983716e+00 1.24470239e-05 1.50432816e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 538365.png
+Value: 0.9994378387928009
+Prediction: [1.99887568e+00 3.25315552e-04 7.99115092e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 501241.png
+Value: 0.5639996528625488
+Prediction: [1.12799931 0.03333959 0.83866113]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 531592.png
+Value: 0.9990405738353729
+Prediction: [1.99808115e+00 1.62114707e-05 1.90274505e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 508765.png
+Value: 0.9996700584888458
+Prediction: [1.99934012e+00 2.75523821e-05 6.32395151e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 497441.png
+Value: 0.9974533319473267
+Prediction: [1.99490666e+00 8.70988461e-05 5.00617728e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 514617.png
+Value: 0.8689924776554108
+Prediction: [1.73798496e+00 4.10980063e-04 2.61604056e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 498956.png
+Value: 0.9999547004699707
+Prediction: [1.99990940e+00 1.81055813e-06 8.88142258e-05]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 532766.png
+Value: 0.5046815425157547
+Prediction: [1.00936309 0.10798933 0.88264766]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 522373.png
+Value: 0.9976688027381897
+Prediction: [1.99533761e+00 4.76366336e-04 4.18587390e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 529209.png
+Value: 0.995716392993927
+Prediction: [1.99143279e+00 4.35037100e-05 8.52368749e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 540693.png
+Value: 0.9907468855381012
+Prediction: [1.98149377e+00 1.64828946e-03 1.68579435e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 500849.png
+Value: 0.997003436088562
+Prediction: [1.99400687e+00 2.10850913e-05 5.97206988e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 549087.png
+Value: 0.9445106387138367
+Prediction: [1.88902128 0.00605396 0.10492474]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 554613.png
+Value: 0.9994638562202454
+Prediction: [1.99892771e+00 2.70135587e-04 8.02238574e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 502536.png
+Value: 0.9999896287918091
+Prediction: [1.99997926e+00 3.30803801e-07 2.03015272e-05]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 523167.png
+Value: 0.9600687026977539
+Prediction: [1.92013741e+00 3.81092871e-04 7.94815738e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 528156.png
+Value: 0.5573689788579941
+Prediction: [1.11473796 0.00206553 0.8831966 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 555976.png
+Value: 0.9837683737277985
+Prediction: [1.96753675e+00 4.72622363e-04 3.19906226e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 553081.png
+Value: 0.999909520149231
+Prediction: [1.99981904e+00 1.76646338e-07 1.80809229e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5132/Spoof
+Image name: 540202.png
+Value: 0.9740591645240784
+Prediction: [1.94811833 0.0050875  0.04679428]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5567/Spoof
+Image name: 512880.png
+Value: 0.9330286979675293
+Prediction: [1.8660574  0.08132935 0.05261326]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5567/Spoof
+Image name: 554947.png
+Value: 0.8665972650051117
+Prediction: [1.73319453 0.23573643 0.03106897]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5309/Live
+Image name: 516331.png
+Value: 0.9657800793647766
+Prediction: [1.93156016 0.06401022 0.00442949]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5560/Live
+Image name: 512464.png
+Value: 0.857353687286377
+Prediction: [1.71470737 0.27418157 0.01111101]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5560/Spoof
+Image name: 546496.png
+Value: 0.9823780357837677
+Prediction: [1.96475607 0.00280169 0.0324422 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5560/Spoof
+Image name: 557973.png
+Value: 0.9993987381458282
+Prediction: [1.99879748e+00 2.85576868e-06 1.19961496e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5336/Live
+Image name: 530434.png
+Value: 0.5743697583675385
+Prediction: [1.14873952 0.80265305 0.04860736]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5336/Spoof
+Image name: 551066.png
+Value: 0.476950004696846
+Prediction: [0.95390001 0.12380565 0.9222945 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5158/Spoof
+Image name: 502277.png
+Value: 0.9907717704772949
+Prediction: [1.98154354e+00 3.04667679e-04 1.81517659e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5158/Spoof
+Image name: 548814.png
+Value: 0.9987846910953522
+Prediction: [1.99756938e+00 3.76696461e-05 2.39298341e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5169/Spoof
+Image name: 552622.png
+Value: 0.9957183301448822
+Prediction: [1.99143666e+00 1.84685117e-04 8.37857381e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5169/Spoof
+Image name: 522072.png
+Value: 0.9993993639945984
+Prediction: [1.99879873e+00 5.06627493e-05 1.15071968e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5169/Spoof
+Image name: 536599.png
+Value: 0.9561368525028229
+Prediction: [1.91227371e+00 7.09982298e-04 8.70164474e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5535/Spoof
+Image name: 514842.png
+Value: 0.6464456617832184
+Prediction: [1.29289132 0.69946426 0.00764444]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/10152/Live
+Image name: 542404.png
+Value: 0.5711331069469452
+Prediction: [1.14226621 0.5070325  0.35070125]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5550/Spoof
+Image name: 552957.png
+Value: 0.6726764291524887
+Prediction: [1.34535286 0.44350695 0.21114031]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5306/Spoof
+Image name: 535009.png
+Value: 0.5731065273284912
+Prediction: [1.14621305 0.10060358 0.75318338]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 540193.png
+Value: 0.9930693209171295
+Prediction: [1.98613864e+00 9.96737435e-04 1.28645897e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 496067.png
+Value: 0.6501006186008453
+Prediction: [1.30020124e+00 5.55142597e-05 6.99743234e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 528616.png
+Value: 0.9997368454933167
+Prediction: [1.99947369e+00 1.09044184e-06 5.25083378e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 527330.png
+Value: 0.6873167306184769
+Prediction: [1.37463346e+00 4.92603378e-06 6.25361645e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 514896.png
+Value: 0.9997805953025818
+Prediction: [1.99956119e+00 6.62299681e-05 3.72610906e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 519592.png
+Value: 0.9751300513744354
+Prediction: [1.9502601  0.03337783 0.01636204]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 542453.png
+Value: 0.9984036982059479
+Prediction: [1.99680740e+00 9.09112830e-04 2.28352356e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 546024.png
+Value: 0.9169754981994629
+Prediction: [1.833951   0.1505908  0.01545819]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 498176.png
+Value: 0.9194321930408478
+Prediction: [1.83886439e+00 8.42514348e-04 1.60293104e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 507691.png
+Value: 0.997090756893158
+Prediction: [1.99418151e+00 6.80457970e-05 5.75036631e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 497240.png
+Value: 0.8484193682670593
+Prediction: [1.69683874e+00 4.00172194e-05 3.03121313e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 522768.png
+Value: 0.8227693438529968
+Prediction: [1.64553869 0.00976901 0.34469227]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 529824.png
+Value: 0.9756730794906616
+Prediction: [1.95134616 0.04050571 0.00814805]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 553342.png
+Value: 0.8300065398216248
+Prediction: [1.66001308e+00 1.06829708e-04 3.39880087e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 530169.png
+Value: 0.9970951080322266
+Prediction: [1.99419022 0.00356072 0.00224899]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 508970.png
+Value: 0.9438765645027161
+Prediction: [1.88775313e+00 1.93293073e-04 1.12053564e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 538343.png
+Value: 0.9973696768283844
+Prediction: [1.99473935e+00 1.00644031e-05 5.25058075e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 522870.png
+Value: 0.9643398821353912
+Prediction: [1.92867976e+00 1.34469619e-05 7.13069662e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 532040.png
+Value: 0.998839259147644
+Prediction: [1.99767852e+00 2.03904756e-06 2.31946143e-03]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 540762.png
+Value: 0.8973584175109863
+Prediction: [1.79471684e+00 5.67076604e-07 2.05282514e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 520525.png
+Value: 0.8820797502994537
+Prediction: [1.76415950e+00 7.38477297e-06 2.35833037e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 522497.png
+Value: 0.9243209660053253
+Prediction: [1.84864193 0.01845853 0.1328995 ]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 557631.png
+Value: 0.999562531709671
+Prediction: [1.99912506e+00 1.21838730e-06 8.73812766e-04]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5134/Spoof
+Image name: 502191.png
+Value: 0.9862874150276184
+Prediction: [1.97257483e+00 6.67588305e-04 2.67574955e-02]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5084/Spoof
+Image name: 533727.png
+Value: 0.4790618419647217
+Prediction: [0.95812368 0.31439106 0.72748534]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5621/Spoof
+Image name: 539011.png
+Value: 0.7752499878406525
+Prediction: [1.55049998 0.38368102 0.06581893]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5478/Live
+Image name: 531214.png
+Value: 0.46689334511756897
+Prediction: [0.93378669 0.45018619 0.61602706]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5478/Spoof
+Image name: 535718.png
+Value: 0.8905608654022217
+Prediction: [1.78112173 0.13172508 0.08715315]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5478/Spoof
+Image name: 504802.png
+Value: 0.8435717523097992
+Prediction: [1.6871435  0.1259511  0.18690543]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5476/Spoof
+Image name: 529864.png
+Value: 0.527465894818306
+Prediction: [1.05493179e+00 7.25915943e-05 9.44995582e-01]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5218/Live
+Image name: 555923.png
+Value: 0.6608574390411377
+Prediction: [1.32171488 0.52449694 0.15378813]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5471/Spoof
+Image name: 543231.png
+Value: 0.606436163187027
+Prediction: [1.21287233 0.00154923 0.78557843]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5412/Live
+Image name: 519880.png
+Value: 0.45472537726163864
+Prediction: [0.90945075 0.82379925 0.26674996]
+
+Image path: /Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test/5446/Spoof
+Image name: 534341.png
+Value: 0.8329023122787476
+Prediction: [1.66580462 0.04323805 0.29095745]
+
+2025-09-05 15:59:26
+

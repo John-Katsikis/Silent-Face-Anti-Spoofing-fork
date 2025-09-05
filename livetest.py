@@ -32,6 +32,11 @@ def test_webcam(model_dir, device_id):
         print("Error: Could not open camera")
         return
     
+    # Create window and center it on screen
+    cv2.namedWindow('livetest', cv2.WINDOW_AUTOSIZE)
+    # Center the window (approximate values for common screen sizes)
+    cv2.moveWindow('livetest', 300, 100)
+    
     while True:
         flag, frame = camera.read()
         
@@ -45,7 +50,8 @@ def test_webcam(model_dir, device_id):
         image_bbox = model_test.get_bbox(frame)
         if image_bbox is None:
             # No face detected; just show the frame and continue
-            cv2.imshow('Anti-Spoof Webcam', frame)
+            display_frame = cv2.resize(frame, (1280, 720))
+            cv2.imshow('livetest', display_frame)
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
             continue
@@ -83,7 +89,9 @@ def test_webcam(model_dir, device_id):
 
        
 
-        cv2.imshow('livetest', frame)
+        # Resize frame to 720p for display (makes window smaller)
+        display_frame = cv2.resize(frame, (1280, 720))
+        cv2.imshow('livetest', display_frame)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break

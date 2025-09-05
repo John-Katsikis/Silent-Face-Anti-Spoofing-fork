@@ -12,6 +12,7 @@ import argparse
 import warnings
 import time
 
+from datetime import datetime
 from sklearn.metrics import confusion_matrix, classification_report, precision_score, recall_score, f1_score
 from src.anti_spoof_predict import AntiSpoofPredict
 from src.generate_patches import CropImage
@@ -19,10 +20,51 @@ from src.utility import parse_model_name
 warnings.filterwarnings('ignore')
 
 
+def check_image(image):
+    height, width, channel = image.shape
+    if width/height != 3/4:
+       ## print("Image is not appropriate!!!\nHeight/Width should be 4/3.")
+       ## warning: temporarily flipped results to only process images that fail aspect ratio check
+        return True
+    else:
+        return False
 
-file = open("unknowns.txt", "w")  # Open the file to write unknown images
+
+def pad_image(image,count):
+    height, width, channel = image.shape
+
+    current_aspect_ratio = width / height
+    desired_aspect_ratio = 3 / 4
+
+    if width/height != 3/4:
+        return image
+    
+    else:
+        if current_aspect_ratio > desired_aspect_ratio: ## too wide so pad the top and bottom
+            new_width = width
+            new_height = int(width / desired_aspect_ratio)
+        else:  ## too tall so pad the sides
+            new_height = height
+            new_width = int(height * desired_aspect_ratio)
+
+            padded_image = np.zeros((new_height, new_width, channel), dtype=image.dtype)
+
+            vertical_offset = (new_height - height) // 2
+            horizontal_offset = (new_width - width) // 2
+
+            padded_image[vertical_offset:vertical_offset + height, horizontal_offset:horizontal_offset + width] = image
+
+    
+    ##cv2.imwrite(f"paddedImages/{count}.png", padded_image)
+
+            return padded_image
+
+
+filename = datetime.now().strftime('%Y-%m-%d_%H-%M-%S_AspectRatioCheckFailWithImagePadding.txt')
+file = open(f"results/{filename}", "w")  # Open the file to write unknown images
 
 SAMPLE_IMAGE_PATH = "./images/sample/"
+
 
 labels = {
     "Unknown": 0,
@@ -37,6 +79,8 @@ directory_labels = {
 
 def test(model_dir, device_id):
 
+    file.write(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + "\n\n")
+
     model_test = AntiSpoofPredict(device_id)
     image_cropper = CropImage()
     parentDirectory = "/Users/johnkatsikis/Desktop/CelebA/CelebA_Spoof/Data/test"
@@ -46,6 +90,11 @@ def test(model_dir, device_id):
     progressCount = 0
     totalFiles = len([f for f in os.listdir(parentDirectory) if os.path.isdir(os.path.join(parentDirectory, f))])
     photonum = 0
+    
+
+    total_padded_images = 0
+    processed_images = 0
+
 
     truthFull = []
     predFull = []
@@ -83,9 +132,6 @@ def test(model_dir, device_id):
                 if image_name.endswith('.png'):
 
                     photonum += 1
-                    truthList.append(truth_label)
-                    truthFull.append(truth_label)
-
                     count += 1
                     image_path = os.path.join(full_path, image_name)
                     try:
@@ -96,47 +142,59 @@ def test(model_dir, device_id):
                     except Exception as e:
                             print(f"Error processing image {image_path}: {e}")
                             continue   
+                    
+                   ## result = check_image(image)
+                   ## if result is True:                                  ##----------------------------------------------------------------
+
+                    image = pad_image(image,photonum)
+
+                        ##total_padded_images += 1
+                        # Only add to truth lists if image passes validation and will be processed
+                    truthList.append(truth_label)
+                    truthFull.append(truth_label)
+                                
                     image_bbox = model_test.get_bbox(image)
                     prediction = np.zeros((1, 3))
                     test_speed = 0
                     size += 1
                     for model_name in os.listdir(model_dir):
-                        h_input, w_input, model_type, scale = parse_model_name(model_name)
-                        param = {
-                            "org_img": image,
-                            "bbox": image_bbox,
-                            "scale": scale,
-                            "out_w": w_input,
-                            "out_h": h_input,
-                            "crop": True,
-                        }
-                        if scale is None:
-                            param["crop"] = False
-                        img = image_cropper.crop(**param)
-                        start = time.time()
-                        prediction += model_test.predict(img, os.path.join(model_dir, model_name))
-                        test_speed += time.time() - start
-
+                            h_input, w_input, model_type, scale = parse_model_name(model_name)
+                            param = {
+                                "org_img": image,
+                                "bbox": image_bbox,
+                                "scale": scale,
+                                "out_w": w_input,
+                                "out_h": h_input,
+                                "crop": True,
+                            }
+                            if scale is None:
+                                param["crop"] = False
+                            img = image_cropper.crop(**param)
+                            start = time.time()
+                            prediction += model_test.predict(img, os.path.join(model_dir, model_name))
+                            test_speed += time.time() - start
+                        
+                    processed_images += 1
                     label = np.argmax(prediction)
                     value = prediction[0][label] / 2  # optional: normalize or rescale score
 
                     prediction = np.array(prediction).flatten()
-                    
-                    if label==0:
-                        label = quickcheck(prediction, full_path, image_name, value)
                         
-                        predList.append(label)
-                        predFull.append(label)
+                    if label==0:
+                            label = quickcheck(prediction, full_path, image_name, value)
+                            
+                            predList.append(label)
+                            predFull.append(label)
                     else:
-                        predList.append(label)
-                        predFull.append(label)
+                            predList.append(label)
+                            predFull.append(label)
 
-                     
-                 
-                    overallMatrix = confusion_matrix(truthList, predList, labels=[0, 1, 2])
-                    precision = precision_score(truthList, predList, average='micro')
-                    recall = recall_score(truthList, predList, average='micro')
-                    f1 = f1_score(truthList, predList, average='micro')
+                            
+                        
+                           ## overallMatrix = confusion_matrix(truthList, predList, labels=[0, 1, 2])
+                           ## precision = precision_score(truthList, predList, average='micro')
+                           ## recall = recall_score(truthList, predList, average='micro')
+                           ## f1 = f1_score(truthList, predList, average='micro')
 
            ## print(overallMatrix)
            ## print(f"Precision: {precision*100}%")
@@ -152,9 +210,10 @@ def test(model_dir, device_id):
     print(f"Overall Full Precision: {overallFullPrecision*100}%")
     print(f"Overall Full Recall: {overallFullRecall*100}%")
     print(f"Overall Full F1 Score: {overallFullF1*100}%")
-    print(f"Total images processed: {photonum}")
+    print(f"Total images scanned: {photonum}")
 
-    
+    ##print(f"Total images padded to correct aspect ratio: {total_padded_images}")
+    print(f"Total images processed: {processed_images}")
   
     endresult.close()
 
@@ -202,6 +261,7 @@ if __name__ == "__main__":
         help="image used to test")
     args = parser.parse_args()
     test(args.model_dir, args.device_id)
+    file.write(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + "\n\n")
     file.close()
     print("Test completed.")
     end = time.time()
@@ -209,4 +269,4 @@ if __name__ == "__main__":
     minutes = int(elapsed_time // 60)
     seconds = int(elapsed_time % 60)
     print(f"Total time taken: {minutes} minutes and {seconds} seconds")
-  
+

@@ -1,8 +1,8 @@
 easydict==1.9
-tqdm==4.31.1
-torchvision==0.13.1
-torch==1.12.1
-opencv_python==4.7.0.72
-Pillow==7.1.2
-tensorboardX==2.0
+tqdm>=4.31.1
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.7.0.72
+Pillow>=8.0.0
+tensorboardX>=2.0
 

@@ -29,6 +29,11 @@ def test_multiface_webcam(model_dir, device_id):
         print("Error: Could not open camera")
         return
     
+    # Create window and center it on screen
+    cv2.namedWindow('multi-face test', cv2.WINDOW_AUTOSIZE)
+    # Center the window (approximate values for common screen sizes)
+    cv2.moveWindow('multi-face test', 300, 100)
+    
     while True:
         ret, frame = camera.read()
         
@@ -43,7 +48,8 @@ def test_multiface_webcam(model_dir, device_id):
         if image_bboxes is None:
             # No faces detected; show the frame and continue
             print('No faces detected')
-            cv2.imshow('multi-face test', frame)
+            display_frame = cv2.resize(frame, (1280, 720))
+            cv2.imshow('multi-face test', display_frame)
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
             continue
@@ -99,7 +105,9 @@ def test_multiface_webcam(model_dir, device_id):
                        cv2.FONT_HERSHEY_SIMPLEX, 0.7, color, 2)
             
 
-        cv2.imshow('multi-face test', frame)
+        # Resize frame to 720p for display (makes window smaller)
+        display_frame = cv2.resize(frame, (1280, 720))
+        cv2.imshow('multi-face test', display_frame)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break

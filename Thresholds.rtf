@@ -121,4 +121,56 @@ Overall Full Recall: 43.27057725221721%\
 Overall Full F1 Score: 43.27057725221721%\
 Total images processed: 19281\
 Test completed.\
-Total time taken: 25 minutes and 33 seconds}
+Total time taken: 25 minutes and 33 seconds\
+\
+Remove photos that don\'92t meet the aspect ratio criteria plus absolute difference, so no uncertain results\
+[[   0    0    0]\
+ [   0   83    8]\
+ [   0 6566 4968]]\
+Overall Full Precision: 43.449462365591394%\
+Overall Full Recall: 43.449462365591394%\
+Overall Full F1 Score: 43.449462365591394%\
+Total images processed: 19281\
+Test completed.\
+Total time taken: 30 minutes and 21 seconds\
+\
+\
+\
+Only process photos which fail aspect ratio check and absolute difference\
+[[   0    0    0]\
+ [   0 3157  392]\
+ [   0 2957 1150]]\
+Overall Full Precision: 56.25653082549634%\
+Overall Full Recall: 56.25653082549634%\
+Overall Full F1 Score: 56.25653082549634%\
+Total images scanned: 19281\
+Total images processed: 7656\
+Test completed.\
+Total time taken: 21 minutes and 17 seconds\
+\
+\
+Photos which have had aspect ratio padding applied to them plus absolute difference\
+[[   0    0    0]\
+ [   0 2322 1227]\
+ [   0 1089 3018]]\
+Overall Full Precision: 69.74921630094045%\
+Overall Full Recall: 69.74921630094045%\
+Overall Full F1 Score: 69.74921630094045%\
+Total images processed: 19281\
+Total images padded to correct aspect ratio: 7656\
+Total images processed: 7656\
+Test completed.\
+Total time taken: 24 minutes and 46 seconds\
+\
+\
+Entire dataset with image padding and absolute difference\
+[[   0    0    0]\
+ [   0 3240  400]\
+ [   0 9523 6118]]\
+Overall Full Precision: 48.53482703179296%\
+Overall Full Recall: 48.53482703179296%\
+Overall Full F1 Score: 48.53482703179296%\
+Total images scanned: 19281\
+Total images processed: 19281\
+Test completed.\
+Total time taken: 49 minutes and 27 seconds}
